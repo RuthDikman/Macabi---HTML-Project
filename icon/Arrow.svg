@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="75" viewBox="0 0 75 75">
+    <defs>
+        <linearGradient id="9dm32vwg5b" x1="50%" x2="50%" y1="-19.186%" y2="273.505%">
+            <stop offset="0%" stop-color="#D625A1"/>
+            <stop offset="100%" stop-color="#A321AA"/>
+        </linearGradient>
+        <path id="bv58bmu2ca" d="M37.5 0C58.21 0 75 16.79 75 37.5S58.21 75 37.5 75 0 58.21 0 37.5 16.79 0 37.5 0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g transform="translate(-1180 -834) translate(-1) translate(1139 776) translate(42 58)">
+                        <use fill="url(#9dm32vwg5b)" transform="matrix(0 -1 -1 0 75 75)" xlink:href="#bv58bmu2ca"/>
+                        <path fill="#FFF" fill-rule="nonzero" d="M50.706 37.331l-6.432-6.054c-.392-.37-1.029-.37-1.421 0-.393.37-.393.968 0 1.338l4.716 4.439H25.005c-.555 0-1.005.424-1.005.946s.45.946 1.005.946h22.564l-4.716 4.44c-.392.369-.392.968 0 1.337.196.185.453.277.71.277.258 0 .515-.092.711-.277l6.432-6.054c.392-.37.392-.968 0-1.338z" transform="matrix(-1 0 0 1 75 0)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

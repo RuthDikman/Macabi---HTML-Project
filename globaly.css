@@ -1,0 +1,204 @@
+body{
+    background-color: rgba(221, 214, 214, 0.5);
+    font-family:'Heebo';
+    direction: rtl;
+    margin: 0;
+}
+.flex-container-header{
+    z-index: 1;
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 10%;
+}
+.flex-container-header a{
+    height: 100%;
+    margin-right: 15px;
+}
+.macabi-pharm,
+.join-macabi,
+.personal-region{
+    display: flex;
+    align-items: center;
+    position: relative;
+   
+}
+.personal-region{
+    margin-right: 3%;
+}
+.vi{
+border-right: 2px solid  #0d47a1;
+border-bottom: 2px solid  #0d47a1;
+height: 7px;
+width: 7px;
+background-color: white;
+transform: rotate(45deg);
+transform-origin: bottom right;
+transition: all .4s;
+}
+.personal-region:hover .vi,.macabi-pharm:hover .vi,.join-macabi:hover .vi{
+    transform: rotate(225deg);
+    transform-origin: center;
+    transform: translatY(50%);
+}
+.macabi-pharm-image{
+    height: 30px;
+    margin-left: 1em;
+}
+.maccabi-logo{
+    height: 100%;
+    margin-right: 1em;
+}
+.personal-region-image{
+    height: 40%;
+    align-items: center;
+}
+.p{
+    color: #0d47a1;
+    font-weight: bold ;
+    margin-top: 13%;
+    font-size: large;
+    transition:all .4s;
+    transform-origin: right;
+    margin-left: 1em;
+    margin-right: 0;
+}
+a{
+    text-decoration: none;
+}
+.lines{
+    height: 50%;
+}
+
+#lines{
+    flex-grow: 1;
+    margin: 0 1em;
+}
+
+#lines>a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.lines-list{
+    font-weight:bold;
+    position: absolute;
+    background-color: #0d47a1;
+    top: 101%;
+    left: 0%;
+    width: 15%;
+    transform: scalex(0);
+    transition: all .4s;
+   transform-origin: left top;
+   border-radius: .1%;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.lines-list p:hover{
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.2),12px 12px 25px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+.lines-list p{
+    transition:all .3s;
+}
+#lines:hover .lines-list{
+    transform: scalex(1);
+}
+.lines-list P{
+    color: white;
+    margin-top: 20%;
+    text-align: center;
+}
+.personal-region-list{
+    position: absolute;
+    color: #0d47a1;
+    border-radius: .1%;
+    top: 100%;
+    background-color: white;
+   width: 150%;
+  transform: scaleY(0);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   transition: all .4s;
+   transform-origin: top;
+}
+.personal-region-list p{
+    transition:all .3s;
+}
+.personal-region-list p:hover{
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.2),12px 12px 25px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+.macabi-pharm-list{
+    position: absolute;
+    color: #0d47a1;
+    border-radius: .1%;
+    top: 100%;
+    background-color: white;
+    width: 150%;
+    transform: scaleY(0);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   transition: all .4s;
+   transform-origin: top;
+}
+#span-farm{
+    font-weight: bold ;
+}
+.join-macabi-list{
+    position: absolute;
+    color: #0d47a1;
+    border-radius: .1%;
+    top: 100%;
+    background-color: white;
+    width: 150%;
+    transform: scaleY(0);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   transition: all .4s;
+   transform-origin: top;
+}
+.personal-region:hover  .personal-region-list{
+    transform: scaleY(1);
+
+}
+.macabi-pharm:hover  .macabi-pharm-list{
+    transform: scaleY(1);
+
+}
+.join-macabi:hover  .join-macabi-list{
+    transform: scaleY(1);
+
+}
+.li{
+    text-align: center;
+}
+.footer{
+    background-color: #0d47a1;
+    text-align:center;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.p-footer{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition:all .3s;
+}
+.p-footer:hover{
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.2),12px 12px 25px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+.wrap-home main{
+    flex-grow: 1;
+    margin-top: 5%;
+}
+
+@media (max-width: 1000px){
+    .macabi-pharm, .join-macabi, .personal-region{
+        display: none;
+    }
+}
+
+
+
